@@ -8,7 +8,7 @@ if plt == 'Linux': pathlib.WindowsPath = pathlib.PosixPath
 
 #title
 st.title("Transportni klassifikatsiya qiluvchi model")
-st.markdown('Be carefull! You should load three kind of photos which are Car, Airplane and Boat on it!')
+st.markdown('Be carefull! You should load three kinds of photos which are Car, Airplane and Boat on it!')
 
 #rasm joylash
 file = st.file_uploader('Rasm yuklash', type=['png','jpg','gif','svg'])
